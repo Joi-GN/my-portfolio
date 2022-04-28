@@ -1,0 +1,109 @@
+:root{
+    --main: lightgreen;
+    --bg-color: #323232;
+    --text: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    color: var(--text);
+
+    /* font-family: 'Courier New'; */
+
+    font-family: 'Trebuchet MS';
+    max-width: 100vw;
+}
+
+header{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: var(--main);
+    color: var(--bg-color);
+}
+
+.main-title{
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.intro{
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.my-img{
+    border-radius: 50%;
+    height: auto;
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px white solid;
+    padding: 2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.container{
+    display: flex;
+    gap: 2em;
+}
+
+.list-container{
+    width: 50%;
+    text-align: start;
+}
+
+.list-container h3{
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.5em;
+}
+
+.skills-list li:before{
+    content: '★';
+    margin-right: 0.5em;
+}
+
+#contact-me{
+    align-items: center;
+}
+
+#contact-me i{
+    font-size: 2.5em;
+}
+
+footer{
+    background-color: var(--main);
+    color: var(--bg-color);
+    width: 100%;
+    padding: 3em 0;
+    text-align: center;
+}
