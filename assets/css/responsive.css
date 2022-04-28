@@ -1,5 +1,19 @@
 @media screen and (min-width: 768px){
     nav{
-        width: 60%;
+        width: 50%;
+    }
+
+    section{
+        padding: 4em;
+    }
+
+    #projects .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .project{
+        width: 30%;
     }
 }
