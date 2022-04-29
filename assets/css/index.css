@@ -45,13 +45,6 @@ header i{
     margin-top: 1em;
 }
 
-.my-img{
-    border: 2px var(--bg-color) solid;
-    border-radius: 50%;
-    height: auto;
-    width: 120px;
-}
-
 nav{
     display: flex;
     flex-wrap: wrap;

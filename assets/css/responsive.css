@@ -49,12 +49,6 @@
 }
 
 @media screen and (min-width: 1024px){
-    .my-img{
-        position: absolute;
-        top: 3em;
-        left: 8em;
-    }
-
     .text-about-me{
         margin-right: 5em;
     }
