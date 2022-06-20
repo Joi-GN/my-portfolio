@@ -1,0 +1,16 @@
+:root{
+    --main-color: #90ee90;
+    --bg-color: #333333;
+    --light-bg-color: #cecece;
+    --light-text-color: #fdfdfd;
+    --dark-text-color: #131313;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+}

@@ -6,199 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <link rel="shortcut icon" href="assets/img/terminal-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
 
     <title>Joice's Portfolio</title>
 </head>
 
 <body>
-    <header id="home">
-        <h1 class="main-title">&lt;Dev Joice Gomes&gt;</h1>
-        <p class="intro">
-            &#128075 Oi, sou Joice Gomes e sou Dev Front-end Júnior
-            <br>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
-            <i class="fa-brands fa-js"></i>
-        </p>
-        <nav>
-            <a href="#home">Início</a>
-            <a href="#about-me">Sobre mim</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact-me">Contato</a>
+    <header class="header">
+        <a href="#intro"><h3 class="header__title">👩‍💻 Dev Joice Gomes</h3></a>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#about-me">Sobre mim</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#education">Formação</a></li>
+                <li class="menu__list__item"><a href="#projects">Projetos</a></li>
+                <li class="menu__list__item"><a href="#contact">Contato</a></li>
+            </ul>
         </nav>
     </header>
-
-    <main>
-        <section id="about-me">
-            <h2 class="section-title">Sobre mim</h2>
-            <div class="container">
-                <div class="text-about-me">
-                    <p>
-                        Tenho Bacharelado em Nutrição, porém logo quando descobri o mundo da programação me apaixonei e comecei
-                        meus estudos.
-                    </p>
-                    <p>
-                        Faço parte da segunda turma do programa ONE | Oracle Next Education, e pretendo começar um curso de Ciências da Computação no segundo semestre de 2022.
-                    </p>
-                    <p>
-                        Gosto de aprender coisas novas e sou apaixonada por jogos!
-                    </p>
-                </div>
-                <div class="image-container">
-                    <img class="image" src="assets/img/code.png" alt="">
-                    <a href="http://www.freepik.com">
-                        <br> 
-                        Designed by stories / Freepik
-                    </a>
-                </div>
-                
-            </div>
-            
-        </section>
-
-        <section id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="container">
-                <div class="list-container">
-                    <h3>Hard Skills</h3>
-                    <ul class="skills-list">
-                        <li class="list-item">HTML5</li>
-                        <li class="list-item">CSS3</li>
-                        <li class="list-item">JavaScript</li>
-                        <li class="list-item">Git e GitHub</li>
-                        <li class="list-item">Conhecimento básico de TypeScript</li>
-                        <li class="list-item">Conhecimento básico de design</li>
-                        <li class="list-item">Inglês Avançado</li>
-                    </ul>
-                </div>
-                <div class="list-container">
-                    <h3>Soft Skills</h3>
-                    <ul class="skills-list">
-                        <li class="list-item">Autodidatismo</li>
-                        <li class="list-item">Criatividade</li>
-                        <li class="list-item">Empatia</li>
-                        <li class="list-item">Colaboração</li>
-                        <li class="list-item">Organização</li>
-                        <li class="list-item">Proatividade</li>
-                        <li class="list-item">Resiliência</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2 class="section-title">Meus projetos</h2>
-            <div class="container">
-                <div class="project">
-                    <a href="https://joi-gn.github.io/gerador-senha-js" target="_blank">
-                        <img src="assets/img/gerador-senha.png">
-                        <p>Gerador de senha</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/codificador_de_texto_js/" target="_blank">
-                        <img src="assets/img/codificador.gif">
-                        <p>Codificador de Texto</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/space_shooter_jogo_desafio_projeto/" target="_blank">
-                        <img src="assets/img/space-shooter.gif">
-                        <p>Space Shooter Game</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/MEMORYGAME-jogo-memoria/" target="_blank">
-                        <img src="assets/img/memory-game.png">
-                        <p>Jogo da memória</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/SNAKE-THE-GAME-recriando-jogo-serpente/" target="_blank">
-                        <img src="assets/img/snake-game.gif">
-                        <p>Jogo da cobrinha</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/INSTAGRAMLOGINPAGE-recriando-interface-instagram/" target="_blank">
-                        <img src="assets/img/instagram.png">
-                        <p>Cópia da Interface do Instagram</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/NETFLIXCLONE-recriando-interface-netflix/" target="_blank">
-                        <img src="assets/img/netflix-clone.gif">
-                        <p>Cópia da Interface da Netflix</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/rock-paper-scissors-game/" target="_blank">
-                        <img src="assets/img/pedra-papel-tesoura.png">
-                        <p>Pedra, Papel e Tesoura</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/DINOGAME-recriando-jogo-chrome-sem-internet/" target="_blank">
-                        <img src="assets/img/dino-game.png">
-                        <p>Dino Game</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://github.com/Joi-GN/MEMORIZECOLORS-game-geniustyle" target="_blank">
-                        <img src="assets/img/memorize-colors.png">
-                        <p>Memorize Colors</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/site-calculadora-js/" target="_blank">
-                        <img src="assets/img/calculadora.png">
-                        <p>Calculadora JavaScript</p>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joi-gn.github.io/jogo_da_velha_desafio_projeto/" target="_blank">
-                        <img src="assets/img/jogo-da-velha.png">
-                        <p>Jogo da Velha</p>
-                    </a>
-                </div>
-
-                <div class="more-btn">
-                    <a href="https://github.com/Joi-GN?tab=repositories" target="_blank">
-                        <button>Mais projetos</button>
-                    </a>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="contact-me">
-            <h2 class="section-title">Onde me encontrar</h2>
-            <div class="container">
-                <a href="https://www.linkedin.com/in/joice-gomes-dn/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <p>LinkedIn</p>
-                </a>
-                <a href="https://github.com/Joi-GN" target="_blank">
-                    <i class="fa-brands fa-github-square"></i>
-                    <p>Github</p>
-                </a>
-            </div>
-            
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Dev Joice Gomes &copy; 2022</p>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+    <section class="intro" id="intro"></section>
+    <section class="about-me" id="about-me"></section>
+    <section class="skills" id="skills"></section>
+    <section class="education" id="education"></section>
+    <section class="projects" id="projects"></section>
+    <section class="contact" id="contact"></section>
+    <footer></footer>
 </body>
 
 </html>
