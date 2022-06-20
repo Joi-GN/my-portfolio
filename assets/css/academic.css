@@ -1,0 +1,39 @@
+.academic {
+  background-color: var(--light-bg-color);
+  color: var(--dark-text-color);
+}
+
+.academic__content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.course {
+  text-align: center;
+  width: calc(33.33% - 1rem);
+}
+
+.course__img-container {
+  background-color: var(--light-text-color);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.course__img {
+  height: 100px;
+  width: 100%;
+}
+
+.course__img--one {
+  background: url('../img/ONE-logo.png') no-repeat center / contain;
+}
+
+.course__img--facu {
+  background: url('../img/unifametro-logo.png') no-repeat center / contain;
+}
+
+.course__title {
+  font-weight: 600;
+  margin-block: 1rem .5rem;
+}
