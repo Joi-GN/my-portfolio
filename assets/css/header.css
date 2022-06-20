@@ -4,6 +4,8 @@
   background-color: var(--main-color);
   color: var(--dark-text-color);
   height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
   justify-content: space-between;
 }
 
@@ -12,23 +14,21 @@
   font-weight: 500;
 }
 
-.menu__list {
-  display: flex;
-  gap: 1rem;
-}
-
 .menu__list__item:hover {
   text-decoration: underline;
 }
 
 @media screen and (min-width: 0) {
-  .header {
-    padding: 0 2rem;
+  .menu__list {
+    display: none;
+    transform: translateY(-200%);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 0 5rem;
+  .menu__list {
+    display: flex;
+    gap: 1rem;
+    transform: translateY(0);
   }
 }

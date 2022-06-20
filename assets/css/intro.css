@@ -1,0 +1,55 @@
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.intro__img {
+  background: url('../img/imagem-perfil.png') no-repeat center / cover;
+  border: 5px solid white;
+  border-radius: 500%;
+  height: 200px;
+  width: 200px;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.intro__title {
+  font-size: 2rem;
+}
+
+.intro__links {
+  display: flex;
+  font-weight: 600;
+  gap: 2rem;
+} 
+
+.intro__links__link::after {
+  content: " ↗";
+}
+
+@media screen and (min-width: 0) {
+  .intro {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+  }
+
+  .intro__img {
+    order: 1;
+  }
+
+  .intro__content {
+    width: 70%;
+  }
+}
