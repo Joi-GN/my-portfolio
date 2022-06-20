@@ -22,26 +22,30 @@ body {
   font-weight: 600;
 }
 
+.container {
+  padding-block: 4rem;
+}
+
 @media screen and (min-width: 0) {
   .container {
-    padding: 2rem 2rem;
+    padding-inline: 2rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 2rem 3rem;
+    padding-inline: 3rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    padding: 2rem 6rem;
+    padding-inline: 6rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    padding: 2rem 10rem;
+    padding-inline: 10rem;
   }
 }

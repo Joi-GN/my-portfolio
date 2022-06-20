@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  justify-content: space-between;
   height: calc(100vh - var(--header-height));
+  min-height: 600px;
 }
 
 .intro__img {
@@ -43,12 +43,14 @@
 @media screen and (min-width: 0) {
   .intro {
     flex-direction: column;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 768px) {
   .intro {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .intro__img {
