@@ -1,0 +1,31 @@
+.hobbies__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hobby {
+  border: var(--light-bg-color) 1px solid;
+  border-radius: 8px;
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+.hobby__icon {
+  fill: var(--main-color);
+  height: 50px;
+  margin-bottom: 1rem;
+  width: 50px;
+}
+
+@media screen and (min-width: 0) {
+  .hobby {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hobby {
+    width: calc(25% - 1rem);
+  }
+}
