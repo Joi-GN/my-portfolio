@@ -4,6 +4,7 @@
   --light-bg-color: #ffd2d9;
   --light-text-color: #fdfdfd;
   --dark-text-color: #131313;
+  --header-height: 60px;
 }
 
 html {
@@ -23,12 +24,24 @@ body {
 
 @media screen and (min-width: 0) {
   .container {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
     padding: 2rem 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 2rem 10rem;
   }
 }
