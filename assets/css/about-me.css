@@ -7,6 +7,10 @@
   gap: 1rem;
 }
 
+.about-me__title {
+  text-align: left;
+}
+
 .about-me__content {
   line-height: 1.25;
 }
