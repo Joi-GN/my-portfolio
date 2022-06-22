@@ -1,5 +1,6 @@
 :root {
   --main-color: #ffa1af;
+  --main-color-hover: #ff5f77;
   --bg-color: #333333;
   --light-bg-color: #ffd2d9;
   --light-text-color: #fdfdfd;
@@ -15,11 +16,13 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--light-text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .section-title {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
   text-align: center;
 }
 
