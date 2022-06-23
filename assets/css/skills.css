@@ -2,6 +2,10 @@
   padding-top: 0;
 }
 
+.skills__title--hard-skills {
+  margin-top: 4rem;
+}
+
 .skills__content {
   display: flex;
   flex-wrap: wrap;
