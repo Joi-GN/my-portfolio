@@ -9,14 +9,10 @@
   margin-top: 2rem;
 }
 
-.course {
-  text-align: center;
-  width: calc(33.33% - 1rem);
-}
-
 .course__img-container {
   background-color: var(--light-text-color);
   border-radius: 10px;
+  box-shadow: 5px 5px 2px #0000003f;
   padding: 2rem;
 }
 
@@ -34,7 +30,7 @@
 }
 
 .course__title {
-  font-weight: 600;
+  font-weight: 700;
   margin-block: 1rem .5rem;
 }
 
@@ -44,6 +40,7 @@
   }
 
   .course {
+    text-align: center;
     width: 100%;
   }
 }
@@ -54,6 +51,7 @@
   }
 
   .course {
+    text-align: left;
     width: calc(33.33% - 1rem);
   }
 }
