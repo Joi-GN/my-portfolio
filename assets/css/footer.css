@@ -4,9 +4,12 @@
   gap: 1rem;
 }
 
-.footer__links__link {
+.footer__links__item {
+  width: 50px;
+}
+
+.footer__links__item__link {
   fill: var(--light-text-color);
-  width: 30px;
 }
 
 @media screen and (min-width: 0) {
@@ -23,6 +26,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1rem;
+  }
+
+  .footer__links {
+    gap: 2rem;
   }
 }
