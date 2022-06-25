@@ -23,11 +23,19 @@
 </head>
 
 <body>
-    <header class="header container">
-        <a href="#intro">
-            <h3 class="header__title">👩‍💻 Dev Joice Gomes</h3>
-        </a>
-        <nav class="menu">
+    <header class="header container" id="header-menu">
+        <div class="header__content">
+            <a class="header__logo" href="#intro">
+                <svg class="header__logo__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.372 86.63C-3.124 74.13-3.124 53.87 9.372 41.37C21.87 28.88 42.13 28.88 54.63 41.37L246.6 233.4C259.1 245.9 259.1 266.1 246.6 278.6L54.63 470.6C42.13 483.1 21.87 483.1 9.372 470.6C-3.124 458.1-3.124 437.9 9.372 425.4L178.7 256L9.372 86.63zM544 416C561.7 416 576 430.3 576 448C576 465.7 561.7 480 544 480H256C238.3 480 224 465.7 224 448C224 430.3 238.3 416 256 416H544z"/></svg>
+                <h3 class="header__logo__title">Dev Joice Gomes</h3>
+            </a>
+            <div class="mobile-menu__icon" id="mobile-menu">
+                <div class="mobile-menu__icon__bar mobile-menu__icon__bar--1"></div>
+                <div class="mobile-menu__icon__bar mobile-menu__icon__bar--2"></div>
+                <div class="mobile-menu__icon__bar mobile-menu__icon__bar--3"></div>
+            </div>
+        </div>
+        <nav class="menu" id="nav-menu">
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#about-me">Sobre mim</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
@@ -52,13 +60,14 @@
                 <li class="intro__links__link"><a href="#" target="_blank">Currículo</a></li>
             </ul>
         </div>
+        <i class="intro__more-bellow fa-solid fa-angles-down"></i>
     </section>
     <section class="about-me container" id="about-me">
         <h2 class="about-me__title section-title">Sobre mim</h2>
         <p class="about-me__content">
             Tenho Bacharelado em Nutrição, porém logo quando descobri o mundo da programação me apaixonei e comecei meus
             estudos. <br>
-            Irei começar a cursar Ciências da Computação no segundo semestre de 2022 na UNIFAMETRO, atualmente faço
+            Irei começar a cursar Ciências da Computação no segundo semestre de 2022 na Unifametro, atualmente faço
             parte da Turma 2 do programa Oracle Next Education - ONE. <br>
             Gosto de aprender coisas novas e sou apaixonada por jogos!
         </p>
@@ -316,6 +325,8 @@
             </li>
         </ul>
     </footer>
+    <script src="assets/js/toggleMobileMenu.js"></script>
+    <script src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
