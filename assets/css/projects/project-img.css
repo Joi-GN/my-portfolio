@@ -1,0 +1,20 @@
+.project__img {
+  border-radius: 10px;
+  box-shadow: var(--main-color) 10px 10px;
+}
+
+@media screen and (min-width: 0) {
+  .project__img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project__img {
+    width: 50%;
+  }
+
+  .project:nth-child(2n+2) .project__img {
+    order: 1;
+  }
+}

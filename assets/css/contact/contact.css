@@ -1,0 +1,26 @@
+@import "./contact-img.css";
+@import "./contact-form.css";
+@import "./form-field.css";
+@import "./form-field-submit.css";
+
+.contact {
+  background-color: var(--light-bg-color);
+  color: var(--dark-text-color);
+}
+
+.contact__subtitle {
+  margin-block: 2rem;
+  text-align: center;
+}
+
+.contact__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__content {
+    gap: 1rem;
+  }
+}

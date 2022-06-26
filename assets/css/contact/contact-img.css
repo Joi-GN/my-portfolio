@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+  .contact__img {
+    background: url('../../img/contact-img.png') no-repeat center / contain;
+    height: 250px;
+    width: 400px;
+  }
+}

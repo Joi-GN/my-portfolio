@@ -1,0 +1,9 @@
+.intro__links {
+  display: flex;
+  font-weight: 700;
+  gap: 2rem;
+} 
+
+.intro__links__link::after {
+  content: " ↗";
+}

@@ -1,26 +1,10 @@
-.skills {
-  padding-top: 0;
-}
-
-.skills__title--hard-skills {
-  margin-top: 4rem;
-}
-
-.skills__content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.skill {
+.hobby {
   border: var(--light-bg-color) 1px solid;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 2rem 1.5rem 1.5rem;
 }
 
-.skill__icon {
+.hobby__icon {
   fill: var(--main-color);
   height: 50px;
   margin-bottom: 1rem;
@@ -28,19 +12,19 @@
 }
 
 @media screen and (min-width: 0) {
-  .skill {
+  .hobby {
     width: calc(50% - 1rem);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .skill {
+  .hobby {
     width: calc(33.33% - 1rem);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .skill {
+  .hobby {
     width: calc(16.66% - 1rem);
   }
 }

@@ -1,0 +1,18 @@
+.course__title {
+  font-weight: 700;
+  margin-block: 1rem .5rem;
+}
+
+@media screen and (min-width: 0) {
+  .course {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .course {
+    text-align: left;
+    width: calc(33.33% - 1rem);
+  }
+}

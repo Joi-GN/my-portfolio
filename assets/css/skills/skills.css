@@ -1,0 +1,17 @@
+@import "skill.css";
+
+.skills {
+  padding-top: 0;
+}
+
+.skills__title--hard-skills {
+  margin-top: 4rem;
+}
+
+.skills__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+}

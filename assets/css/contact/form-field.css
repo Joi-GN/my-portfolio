@@ -1,0 +1,35 @@
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field__input,
+.form__field__label {
+  background-color: var(--light-text-color);
+  border: none;
+  padding: .5rem;
+  transition: .3s ease;
+}
+
+.form__field__label {
+  border-radius: 5px 5px 0 0;
+  color: var(--bg-color);
+}
+
+.form__field:focus-within > .form__field__label {
+  color: var(--main-color-hover);
+}
+
+.form__field__input {
+  border-bottom: 3px var(--light-bg-color) solid;
+  font-size: 1rem;
+}
+
+.form__field__input:focus {
+  border-bottom: 3px var(--main-color-hover) solid;
+  outline: none;
+}
+
+.form__field__input--textarea {
+  resize: none;
+}
