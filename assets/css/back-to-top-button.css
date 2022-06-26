@@ -1,0 +1,11 @@
+.back-to-top-button {
+  fill: var(--main-color);
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+}
+
+.back-to-top-button.hide {
+  display: none;
+}

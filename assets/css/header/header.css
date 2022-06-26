@@ -4,7 +4,7 @@
 .header {
   background-color: var(--main-color);
   color: var(--dark-text-color);
-  min-height: var(--header-height);
+  min-height: 60px;
   position: fixed;
   transition: .5s ease;
   width: 100%;
@@ -54,7 +54,7 @@
   .header {
     display: flex;
     align-items: center;
-    height: var(--header-height);
+    height: 60px;
     justify-content: space-between;
     padding-block: 2rem;
   }
