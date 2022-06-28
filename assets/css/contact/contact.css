@@ -1,8 +1,3 @@
-@import "./contact-img.css";
-@import "./contact-form.css";
-@import "./form-field.css";
-@import "./form-field-submit.css";
-
 .contact {
   background-color: var(--light-bg-color);
   color: var(--dark-text-color);

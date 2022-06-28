@@ -1,6 +1,3 @@
-@import "mobile-menu.css";
-@import "menu-list.css";
-
 .header {
   background-color: var(--main-color);
   color: var(--dark-text-color);

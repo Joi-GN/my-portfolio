@@ -1,6 +1,3 @@
-@import "course-img.css";
-@import "course.css";
-
 .academic {
   background-color: var(--light-bg-color);
   color: var(--dark-text-color);

@@ -1,6 +1,3 @@
-@import "intro-img.css";
-@import "intro-links.css";
-
 .intro {
   display: flex;
   align-items: center;
