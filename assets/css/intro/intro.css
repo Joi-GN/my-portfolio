@@ -27,7 +27,7 @@
 
 .intro__more-bellow {
   position: absolute;
-  bottom: 2rem;
+  bottom: 4rem;
   left: 50%;
   z-index: -1;
 }

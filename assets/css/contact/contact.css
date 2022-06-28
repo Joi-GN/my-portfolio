@@ -13,6 +13,22 @@
   text-align: center;
 }
 
+.contact__subtitle__link {
+  color: var(--main-color-hover);
+}
+
+.contact__subtitle__link:hover {
+  text-decoration: underline;
+}
+
+.contact__notice {
+  color: var(--main-color-hover);
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .contact__content {
   display: flex;
   align-items: center;
