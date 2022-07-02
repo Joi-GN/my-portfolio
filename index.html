@@ -320,7 +320,7 @@
                     </div>
                     <div class="form__field">
                         <label for="email" class="form__field__label">Email</label>
-                        <input type="email" id="email" class="form__field__input" name="email" pattern="[\w-.]+@([\w-]+\.)+[\w-]+" data-type="email" required>
+                        <input type="email" id="email" class="form__field__input" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-type="email" required>
                         <span class="form__field__error-message"></span>
                     </div>
                     <div class="form__field">
@@ -337,7 +337,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <input id="submit" type="submit" value="Enviar mensagem" class="form__field__submit" data-type="submit">
+                <input disabled id="submit" type="submit" value="Enviar mensagem" class="form__field__submit" data-type="submit">
             </form>
         </div>
     </section>

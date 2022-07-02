@@ -3,19 +3,22 @@
   flex-direction: column;
 }
 
-.form__field--invalid-input{
-  border: 2px solid var(--invalid);
-  border-radius: 10px;
-  margin: .3rem;
-  padding: .4rem;
-}
-
 .form__field__input,
 .form__field__label {
   background-color: var(--light-text-color);
   border: none;
   padding: .5rem;
   transition: .3s ease;
+}
+
+.form__field--invalid-input .form__field__label {
+  border-top: 2px var(--invalid) dashed;
+  border-inline: 2px var(--invalid) dashed;
+}
+
+.form__field--invalid-input .form__field__input {
+  border-bottom: 2px var(--invalid) dashed;
+  border-inline: 2px var(--invalid) dashed;
 }
 
 .form__field__label {
@@ -27,9 +30,14 @@
   color: var(--main-color-hover);
 }
 
+.form__field--invalid-input:focus-within > .form__field__label {
+  color: var(--invalid);
+}
+
 .form__field__input {
   border-bottom: 3px var(--light-bg-color) solid;
   font-size: 1rem;
+  font-family: inherit;
 }
 
 .form__field__input:focus {

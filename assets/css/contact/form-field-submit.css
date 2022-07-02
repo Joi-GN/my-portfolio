@@ -10,6 +10,10 @@
   transition: .5s ease;
 }
 
+.form__field__submit:disabled {
+  opacity: 0.5;
+}
+
 .form__field__submit:hover {
   background-color: var(--main-color-hover);
   transition: all .5s ease;

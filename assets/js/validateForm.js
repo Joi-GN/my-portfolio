@@ -3,9 +3,11 @@ export default function validate(input) {
   if (input.validity.valid) {
     input.parentElement.classList.remove('form__field--invalid-input');
     input.parentElement.querySelector('.form__field__error-message').innerHTML = '';
+    checkFormValidity();
   } else {
     input.parentElement.classList.add('form__field--invalid-input');
     input.parentElement.querySelector('.form__field__error-message').innerHTML = showErrorMessage(inputType, input);
+    checkFormValidity();
   }
 }
 
@@ -39,4 +41,9 @@ function showErrorMessage(inputType, input) {
   return message;
 }
 
-// document.querySelector('.contact__form').checkValidity()
+function checkFormValidity() {
+  const submitButton = document.querySelector('[data-type="submit"]');
+  const validForm = document.querySelector('.contact__form').checkValidity();
+  if(validForm) submitButton.removeAttribute('disabled');
+  else submitButton.setAttribute('disabled', true);
+}
