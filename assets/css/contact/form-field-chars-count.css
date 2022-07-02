@@ -1,0 +1,10 @@
+.form__field__chars-count {
+  font-size: .8rem;
+  float: right;
+  padding-block: .3rem .5rem;
+}
+
+.form__field__chars-count--limit {
+  color: var(--invalid);
+  font-weight: 700;
+}

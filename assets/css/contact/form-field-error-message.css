@@ -1,0 +1,5 @@
+.form__field__error-message {
+  color: var(--invalid);
+  font-size: .8rem;
+  padding-block: .3rem .5rem;
+}

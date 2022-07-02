@@ -3,6 +3,13 @@
   flex-direction: column;
 }
 
+.form__field--invalid-input{
+  border: 2px solid var(--invalid);
+  border-radius: 10px;
+  margin: .3rem;
+  padding: .4rem;
+}
+
 .form__field__input,
 .form__field__label {
   background-color: var(--light-text-color);
