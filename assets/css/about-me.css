@@ -14,3 +14,17 @@
 .about-me__content {
   line-height: 1.25;
 }
+
+@media screen and (min-width: 0) {
+  .about-me__content {
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-me__content {
+    text-align: left;
+    width: 70%;
+  }
+}

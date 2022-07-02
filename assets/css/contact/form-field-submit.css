@@ -12,6 +12,7 @@
 
 .form__field__submit:disabled {
   opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .form__field__submit:hover {
