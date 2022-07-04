@@ -14,6 +14,7 @@
 .form__field--invalid-input .form__field__label {
   border-top: 2px var(--invalid) dashed;
   border-inline: 2px var(--invalid) dashed;
+  color: var(--invalid);
 }
 
 .form__field--invalid-input .form__field__input {
