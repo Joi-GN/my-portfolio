@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.project__info__languages {
+  font-style: italic;
+}
+
 @media screen and (min-width: 0) {
   .project__info {
     width: 100%;

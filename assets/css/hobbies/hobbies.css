@@ -1,3 +1,7 @@
+.hobbies {
+  padding-bottom: 0;
+}
+
 .hobbies__content {
   display: flex;
   flex-wrap: wrap;

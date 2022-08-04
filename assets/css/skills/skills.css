@@ -1,9 +1,6 @@
-.skills {
-  padding-top: 0;
-}
-
+.skills,
 .skills__title--hard-skills {
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .skills__content {
