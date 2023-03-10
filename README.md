@@ -1,7 +1,8 @@
 # >_ Meu portfólio
 
-👋️ Oi! Aqui você encontra o meu portfólio.  
+<div align=center> 
 
-![](assets/img/screenshot.png)
+👋️ Oi! Aqui você encontra o repositório do meu portfólio.  
+##  👩‍💻 Acesse meu portfólio clicando [aqui!](https://joi-gn.github.io/my-portfolio/) 👩‍💻
 
-> 👩‍💻👩‍💻 Acesse meu portfólio clicando [aqui!](https://joi-gn.github.io/my-portfolio/)
+</div>
