@@ -4,6 +4,10 @@
   gap: 2rem;
 } 
 
+.intro__links__link:hover {
+  color: var(--light-bg-color);
+}
+
 .intro__links__link::after {
   content: " ↗";
 }

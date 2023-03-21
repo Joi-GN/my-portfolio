@@ -5,10 +5,18 @@
 }
 
 .skill__icon {
-  fill: var(--main-color);
+  fill: var(--light-bg-color);
   height: 50px;
   margin-bottom: 1rem;
   width: 50px;
+}
+
+.skill:hover, 
+.skill:hover .skill__icon{
+  border-color: var(--main-color);
+  fill: var(--main-color);
+  color: var(--main-color);
+  user-select: none;
 }
 
 @media screen and (min-width: 0) {
@@ -25,6 +33,6 @@
 
 @media screen and (min-width: 1024px) {
   .skill {
-    width: calc(16.66% - 1rem);
+    width: calc(25% - 1rem);
   }
 }
