@@ -1,3 +1,16 @@
+.skills,
+.skills__title--hard-skills {
+  padding-top: 4rem;
+}
+
+.skills__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 .skill {
   border: var(--light-bg-color) 1px solid;
   border-radius: 10px;
